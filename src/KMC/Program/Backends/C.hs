@@ -4,6 +4,7 @@
 
 module KMC.Program.Backends.C where
 
+import           Prelude hiding ((<>))
 import           Control.Monad (join)
 import           Control.Monad.Trans
 import           Data.Bits
