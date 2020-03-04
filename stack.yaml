@@ -1,6 +1,8 @@
-resolver: lts-7.18
+resolver: lts-14.27
 packages:
-  - 'regexps-syntax'
-  - '.'
-# extra-deps:
+  - .
+
+extra-deps:
+  - git: https://github.com/sshine/regexps-syntax
+    commit: 28dfbfc7d3cdeab17ef35e66e93ce1662d0852ac
 #   - 'graphviz-2999.18.0.1'
